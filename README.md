@@ -9,8 +9,7 @@ Este projeto em Python coleta arquivos de uma página específica e os transfere
   
 ## Requisitos
 
-- Python 3.x
-- Bibliotecas necessárias (listadas no arquivo `requirements.txt` se você tiver dependências externas, ou diretamente no código)
+- Python 3.12
 
 ## Como Usar
 
