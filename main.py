@@ -2,6 +2,8 @@ import shutil
 import os
 import time
 
+local_raiz = os.getcwd()
+
 def copiar():
 
     os.chdir(r'pastas')
@@ -13,7 +15,7 @@ def copiar():
 
         for arquivo in os.listdir():
             caminho_origem = rf'{local}\{pasta}\{arquivo}'
-            caminho_destino = r'C:\Users\joab.alves\Desktop\Programas Ecommerce\copiar arquivos de varias pastas e colar em uma\arquivos_juntos'
+            caminho_destino = rf'{local_raiz}\arquivos_juntos'
 
             shutil.copy(caminho_origem, caminho_destino)
         print(f'Pasta copiada com sucesso: {pasta}')
